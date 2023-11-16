@@ -1,0 +1,16 @@
+div.newspopup-dialog-popup {
+    background: white url(../img/bg_splashscreen.png) no-repeat -229px top;
+}
+
+.newspopup-dialog-popup-body {
+    margin: auto;
+    width: 65%;
+    margin-top: 150px;
+}
+
+div.newspopup-dialog-popup-body > div.newspopup-dialog-popup-buttonbar button {
+    margin: 0.5em;
+    padding: 0.5em;
+    background-color: #93b023 !important;
+    border-radius: 3px;
+}

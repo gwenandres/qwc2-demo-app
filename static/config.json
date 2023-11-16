@@ -159,7 +159,8 @@
           },
           "appMenuClearsTask": true,
           "appMenuFilterField": true,
-          "appMenuVisibleOnStartup": false,
+          "appMenuVisibleOnStartup": true,
+          "appMenuCompact": true,
           "logoUrl": "/",
           "appMenuShortcut": "alt+shift+m",
           "toolbarItemsShortcutPrefix": "alt+shift"
@@ -309,6 +310,9 @@
         "name": "Redlining"
       },
       {
+        "name": "LoginUser"
+      },
+      {
         "name": "Editing",
         "cfg": {
           "allowCloneGeometry": true
@@ -396,6 +400,13 @@
       },
       {
         "name": "FeatureSearch"
+      },
+      {
+        "name": "NewsPopup",
+        "cfg": {
+          "newsDocument": "assets/news.html",
+          "newRev": "1.0"
+        }
       }
     ],
     "mobile": [
