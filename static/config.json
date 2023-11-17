@@ -34,7 +34,7 @@
   "wmsHidpi": false,
   "wmsMaxGetUrlLength": 2048,
   "qgisServerVersion": 3,
-  "defaultColorScheme": "default",
+  "defaultColorScheme": "demo_oslandia",
   "username": "admin",
   "defaultFeatureStyle": {
     "strokeColor": [0, 0, 255, 1],
@@ -195,6 +195,10 @@
             {
               "titleMsgId": "colorschemes.dark",
               "value": "dark"
+            },
+            {
+              "titleMsgId": "colorschemes.demo_oslandia",
+              "value": "demo_oslandia"
             }
           ]
         }
